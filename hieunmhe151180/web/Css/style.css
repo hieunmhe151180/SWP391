@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 100%;
+}
+
+#header{
+    border: 1px solid green;
+    line-height: 30px;
+    text-align: right;
+}

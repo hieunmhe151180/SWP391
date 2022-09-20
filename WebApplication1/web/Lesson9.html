@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #container{
+                width: 70%;
+                margin: 0px auto;
+                border: 1px solid red;
+            }
+            label{
+                width: 20%;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+            textarea{
+                width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1 style="text-align: center">IMFORMATION DISCLOSURE</h1>
+            <form method="post" action="/process">
+                <label>Enter Name</label>
+                <input type="text" name="txtName"></br>
+                <label>Enter BirdthDay</label>
+                <input type="date" name="txtDob"></br>
+                <label>Enter address</label>
+                <input type="text" name="txtAdd"></br>
+                <label>Courses</label>
+                <select size="5" name="slCourses">
+                    <option value="English">English</option>
+                    <option value="Math">Math</option>
+                    <option value="History">History</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Physic">Physic</option>
+                </select></br>
+                <label>Teaching quality</label>
+                <select name="slQuality" size="3">
+                </select></br>
+                <label></label>
+                    <input type="submit" name="txtSubmit" value="Sumit">
+                    <input type="reset" name="txtReset" value="Reset">
+            </form>
+        </div>
+    </body>
+</html>
